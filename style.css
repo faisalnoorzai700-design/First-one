@@ -1,0 +1,27 @@
+    h1{
+        background-color: black;
+        color: beige;
+        text-align: center;
+    }
+    #p1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(8, 22, 170);
+    }
+    #p2{color: brown;
+    }
+    #p3{
+        color: rgb(14, 109, 77);
+    }
+    .ppp{
+        color: #000;
+    }
+    img{
+        border-radius: 50%;
+        align-items: center;
+    }
+    button{
+        align-items: center;
+        background-color: black;
+        color: brown;
+        border-radius: 50%;
+    }

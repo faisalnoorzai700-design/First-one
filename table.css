@@ -1,0 +1,39 @@
+*{
+    align-items: center;
+}
+.c-table{
+    border-collapse: collapse;
+    margin: 30px 30px;
+    font-size: 0.8em;
+    min-width: 400px;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6)
+}
+
+.c-table thead tr{
+    background-color: brown;
+    color: bisque;
+    text-align: left;
+    font-weight: bold;
+}
+.c-table th, td{
+    padding: 6px 10px
+}
+.c-table tbody  tr{
+    border-bottom: 1px solid #dddddd;
+}
+.c-table tbody tr:nth-of-type(odd){
+    background-color: rgb(237, 237, 237);
+}
+.c-table tbody tr:last-of-type{
+    border-bottom: 2px solid brown;
+}
+h1{
+    background-color: brown;
+    color: antiquewhite;
+    margin: 10px 30px;
+    width: 400px;
+    border-radius: 6px;
+    font-size: x-large ;
+}
